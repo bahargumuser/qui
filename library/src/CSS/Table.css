@@ -1,0 +1,75 @@
+.table-wrapper {
+    width: 100%;
+  }
+  
+  .table {
+    display: block;
+    overflow: hidden;
+    table-layout: fixed;
+    border-collapse: collapse;
+    box-shadow: 0px 10px 10px #ccc;
+    border-radius: 10px;
+    white-space: nowrap;
+    width: 100em;
+    max-width: 80%;
+    margin: auto;
+    table-layout: auto;
+    overflow-x: auto;
+  }
+  
+  .table thead {
+    background-color: #E6E6E1;
+    color: #222;
+  }
+  
+  .table th,
+  .table td {
+    padding: 0.8rem;
+  }
+  
+  .table td {
+    border-top: 0.5px solid #ddd;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .table tbody tr {
+    background-color: #FFFFF3;
+  }
+  .table tbody tr:hover {
+    background-image: linear-gradient(79deg, hwb(21 33% 0%), hsl(324, 100%, 73%) 48%);
+  }
+  
+  .expand {
+    width: 200px;
+  }
+  
+  .label {
+    border-radius: 3px;
+    padding: 0.3rem;
+    color: white;
+  }
+  
+  .label-reading {
+    background-color: #777;
+  }
+  
+  .label-delivered {
+    background-color: #42a942;
+  }
+  
+  .label-alarm {
+    background-color: #d9534f;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .actions svg {
+    cursor: pointer;
+  }
+  
+  .delete-btn {
+    color: #e10d05;
+  }
