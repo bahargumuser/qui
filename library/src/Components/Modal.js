@@ -4,7 +4,7 @@ import "../CSS/Modal.css"
 export const Modal = ({closeModal, onSubmit, defaultValue}) => {
 const [formState, setFormState] = useState(
     defaultValue || {
-        book: "", author: "", publisher: "", pagecount: "", status: "delivered"
+      id:"",  book: "", author: "", publisher: "", pagecount: "", status: "delivered"
     }
 );
 const [alarms, setAlarms] = useState("");
@@ -35,6 +35,7 @@ const handleSubmit = (e) => {
     onSubmit(formState);
     closeModal();
 }
+
 
   return (
     <div className="modal-container" onClick={(e) => {
