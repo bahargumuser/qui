@@ -1,5 +1,7 @@
 .table-wrapper {
-    width: 100%;
+  display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .table {
@@ -9,10 +11,8 @@
     border-collapse: collapse;
     box-shadow: 0px 10px 10px #ccc;
     border-radius: 10px;
-    white-space: nowrap;
-    width: 100em;
-    max-width: 80%;
-    margin: auto;
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
     table-layout: auto;
     overflow-x: auto;
   }
@@ -32,21 +32,23 @@
     overflow: hidden;
     text-overflow: ellipsis;
   }
+
   .table tbody tr {
     background-color: #FFFFF3;
   }
+
   .table tbody tr:hover {
-    background-image: linear-gradient(79deg, hwb(21 33% 0%), hsl(324, 100%, 73%) 48%);
+    background-image: linear-gradient(rgb(113, 195, 242), #8d95e4);
   }
   
   .expand {
-    width: 200px;
+    width: 100%;
   }
   
   .label {
     border-radius: 3px;
     padding: 0.3rem;
-    color: white;
+    color: white;  
   }
   
   .label-reading {

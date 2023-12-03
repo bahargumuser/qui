@@ -12,7 +12,7 @@
   }
   
   .modal {
-    border-radius: 5px;
+    border-radius: 15px;
     padding: 2rem;
     background-color: white;
     width: 25em;
@@ -21,6 +21,7 @@
   .modal .btn {
     display: block;
     margin: auto;
+    height: 2.5rem;
   }
   
   .form-group {
@@ -33,7 +34,7 @@
   .form-group textarea,
   .form-group select {
     border: 1px solid black;
-    border-radius: 0.3rem;
+    border-radius: 0.5rem;
     padding: 0.3rem;
     font-size: 1rem;
   }
