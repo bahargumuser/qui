@@ -4,12 +4,19 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: linear-gradient(79deg, hwb(21 33% 0%), hsl(324, 100%, 73%) 48%);
+  background-image: linear-gradient(rgb(113, 195, 242), #8d95e4);
 }
 .btn {
-  width: 70px;
+  width: 60px;
   height: 45px;
-  border-radius: 20px;
+  border-radius: 15px;
   text-align: center;
-  font-size: 13px;
+  font-size: 14px;
+  background-color: white;
+  margin-top: 5px;
+  cursor: pointer;
+  border: none;
+}
+.btn:hover {
+  background-image: linear-gradient(rgb(113, 195, 242), #8d95e4);
 }
